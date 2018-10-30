@@ -11,7 +11,7 @@ if(empty($id))
 
 $output = [];
 
-$conn = mysqli_connect('https://github.com/Ansion13/kaifanla.git','root','','kaifanla');
+$conn = mysqli_connect('https://github.com/Ansion13/kaifanla','root','','kaifanla');
 $sql = "SET NAMES UTF8";
 mysqli_query($conn,$sql);
 
